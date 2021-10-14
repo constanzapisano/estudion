@@ -473,25 +473,23 @@ body::-webkit-scrollbar {
 /* Tamanios Proyectos */
 /* Tamanios Imgs Proyecto */
 .proyectoImg {
-  width: 480px;
-  height: 878px;
-  margin: 0px 5px 40px 0px; }
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px; }
 
 /* Tamanio descripciones versión mobile */
 @media only screen and (max-width: 767px) {
   .proyectoImg {
     width: 100%;
-    height: auto;
-    margin: 20px 5px 20px 0px; } }
+    margin-top: 20px;
+    margin-bottom: 20px; } }
 
 /* Tamanio nav versión tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .proyectoImg {
-    display: flex;
-    align-items: center;
     width: 100%;
-    height: auto;
-    margin: 20px 5px 20px 0px; } }
+    margin-top: 20px;
+    margin-bottom: 40px; } }
 
 /* Tamanios Estudio */
 /* Flex para descripción estudio 1 */
