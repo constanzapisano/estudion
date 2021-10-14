@@ -229,6 +229,13 @@ ul li {
   .titulosH1 {
     font-size: 30px; } }
 
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .titulosH1 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px; } }
+
 /* Tamanio título secundario */
 h2 {
   font-size: 20px;
@@ -300,7 +307,7 @@ body::-webkit-scrollbar {
 /* Tamanio nav versión tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .logo {
-    width: 65%; } }
+    width: 60%; } }
 
 /* Tamanio íconos redes */
 .redes {
@@ -320,7 +327,7 @@ body::-webkit-scrollbar {
   height: 100vh; }
 
 /* Tamanio img index versión mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .imgIndex {
     background: url("../assets/img/imgIndexMob.jpg");
     background-repeat: no-repeat;
@@ -457,12 +464,18 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .descripcionSs {
     font-size: 20px;
-    margin: 20px 10px 20px 10px; } }
+    margin: 20px 10px 30px 10px; } }
 
 /* Tamanio para íconos */
 .iconoSize {
   width: 18%;
   height: 18%; }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .iconoSize {
+    width: 15%;
+    height: 15%; } }
 
 /* Flex para íconos */
 .iconoFlex {
@@ -478,16 +491,18 @@ body::-webkit-scrollbar {
   margin-bottom: 40px; }
 
 /* Tamanio descripciones versión mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .proyectoImg {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px; } }
 
 /* Tamanio nav versión tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   .proyectoImg {
-    width: 100%;
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 40px; } }
 
@@ -528,7 +543,7 @@ body::-webkit-scrollbar {
 .descripcionArq2 {
   font-size: 16px;
   line-height: 40px;
-  text-align: left;
+  text-align: center;
   margin: 30px 30px 30px 70px; }
 
 /* Flex para descripción estudio 2 versión mobile*/
@@ -567,16 +582,8 @@ body::-webkit-scrollbar {
   /* Box modeling para contacto */
   margin: 15px 0px 5px 0px; }
 
-/* Overflow contacto */
-.fondoContacto {
-  overflow-x: hidden; }
-
-/* Margen contacto */
-.margenContacto {
-  margin-bottom: 50px; }
-
 /* Tamanio nav versión tablet */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
   .flexContacto {
     display: flex;
     text-align: center;
@@ -594,6 +601,14 @@ body::-webkit-scrollbar {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px; } }
+
+/* Overflow contacto */
+.fondoContacto {
+  overflow-x: hidden; }
+
+/* Margen contacto */
+.margenContacto {
+  margin-bottom: 50px; }
 
 /* CSS botón formulario */
 .estiloBoton {
