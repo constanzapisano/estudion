@@ -120,6 +120,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #626249; }
 
 /* Color texto formulario */
+.flexContacto1 {
+  color: white; }
+
 .flexContacto {
   color: white; }
 
@@ -430,13 +433,13 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   letter-spacing: 2px;
   font-weight: lighter;
   margin-bottom: 50px; }
 
 /* Tamanio frase 2 index versión mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .fraseSFlex {
     font-size: 20px;
     margin: 20px 10px 50px 10px; } }
@@ -444,7 +447,7 @@ body::-webkit-scrollbar {
 /* Tamanio nav versión tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .fraseSFlex {
-    font-size: 23px;
+    font-size: 22px;
     margin: 20px 30px 50px 30px; } }
 
 /* Flex para descripciones */
@@ -512,15 +515,20 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 40px;
   text-align: center;
-  margin: 20px 30px 40px 30px; }
+  margin: 20px 120px 40px 120px; }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .descripcionArq1 {
+    font-size: 22px; } }
 
 /* Flex para descripción estudio 2 versión mobile*/
 @media only screen and (max-width: 600px) {
   .descripcionArq1 {
-    font-size: 18px; } }
+    font-size: 20px; } }
 
 /* Flex para subtítulo */
 .arqFlex {
@@ -573,6 +581,34 @@ body::-webkit-scrollbar {
 
 /* Tamanios Contacto */
 /* Flex para contacto */
+.flexContacto1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 24px;
+  letter-spacing: 2px;
+  /* Box modeling para contacto */
+  margin: 15px 0px 50px 0px; }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .flexContacto1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 15px 0px 50px 0px;
+    letter-spacing: 2px; } }
+
+/* Flex para formulario versión mobile */
+@media only screen and (max-width: 600px) {
+  .flexContacto1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0px 50px 0px; } }
+
 .flexContacto {
   display: flex;
   flex-direction: row;
@@ -588,7 +624,7 @@ body::-webkit-scrollbar {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 22px;
     margin: 15px 20px 35px 20px;
     letter-spacing: 2px; } }
 
@@ -602,13 +638,12 @@ body::-webkit-scrollbar {
     margin-left: 20px;
     margin-right: 20px; } }
 
+.margenContacto {
+  margin-bottom: 50px; }
+
 /* Overflow contacto */
 .fondoContacto {
   overflow-x: hidden; }
-
-/* Margen contacto */
-.margenContacto {
-  margin-bottom: 50px; }
 
 /* CSS botón formulario */
 .estiloBoton {
