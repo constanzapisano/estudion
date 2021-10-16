@@ -329,16 +329,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   height: 100vh; }
 
-/* Tamanio img index versión mobile */
-@media only screen and (max-width: 767px) {
-  .imgIndex {
-    background: url("../assets/img/imgIndexMob.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh; } }
-
 /* Tamanio img index versión iphone */
 @media only screen and (max-width: 767px) {
   .imgIndex {
@@ -609,7 +599,7 @@ body::-webkit-scrollbar {
     text-align: center;
     justify-content: center;
     font-size: 22px;
-    margin: 15px 0px 50px 0px;
+    margin: 15px 10px 50px 10px;
     letter-spacing: 2px; } }
 
 /* Flex para formulario versión mobile */
@@ -619,7 +609,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 15px 0px 50px 0px; } }
+    margin: 15px 10px 50px 10px; } }
 
 .flexContacto {
   display: flex;
