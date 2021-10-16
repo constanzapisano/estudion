@@ -533,12 +533,14 @@ body::-webkit-scrollbar {
 /* Tamanio nav versión tablet */
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   .descripcionArq1 {
-    font-size: 22px; } }
+    font-size: 22px;
+    margin: 20px 20px 40px 20px; } }
 
 /* Flex para descripción estudio 2 versión mobile*/
 @media only screen and (max-width: 600px) {
   .descripcionArq1 {
-    font-size: 20px; } }
+    font-size: 20px;
+    margin: 20px 10px 40px 10px; } }
 
 /* Flex para subtítulo */
 .arqFlex {
@@ -598,7 +600,7 @@ body::-webkit-scrollbar {
   font-size: 24px;
   letter-spacing: 2px;
   /* Box modeling para contacto */
-  margin: 15px 0px 50px 0px; }
+  margin: 15px 10px 50px 10px; }
 
 /* Tamanio nav versión tablet */
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
