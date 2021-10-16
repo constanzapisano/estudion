@@ -698,3 +698,13 @@ body::-webkit-scrollbar {
   .copyrightFlex {
     margin-top: 35px;
     margin-bottom: 25px; } }
+
+/* Tamanio img index versión iphone */
+@media (min-width: 320px) and (max-width: 768px) {
+  .imgIndex {
+    background: url("../assets/img/imgIndexMob.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; } }
