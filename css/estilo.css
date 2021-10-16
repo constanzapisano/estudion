@@ -329,6 +329,16 @@ body::-webkit-scrollbar {
   background-size: cover;
   height: 100vh; }
 
+/* Tamanio img index versión mobile */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .imgIndex {
+    background: url("../assets/img/imgIndexMob.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; } }
+
 /* Tamanios y config gral nav */
 .navbar {
   background-color: transparent;
@@ -688,13 +698,3 @@ body::-webkit-scrollbar {
   .copyrightFlex {
     margin-top: 35px;
     margin-bottom: 25px; } }
-
-/* Tamanio img index versión iphone */
-@media only screen and (max-width: 767px) {
-  .imgIndex {
-    background: url("../assets/img/imgIndexMob.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh; } }
