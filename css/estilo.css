@@ -322,7 +322,7 @@ body::-webkit-scrollbar {
 /* Tamanios Index */
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
   .imgIndex {
-    background: url("../assets/img/imgIndexMob.jpg");
+    background: url("../assets/img/indexMob.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
