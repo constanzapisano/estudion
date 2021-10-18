@@ -322,6 +322,15 @@ body::-webkit-scrollbar {
 /* Tamanios Index */
 /* Tamanios img index */
 /* Tamanio img index versión mobile */
+@media only screen and (min-width: 768px) {
+  .imgIndex {
+    background: url("../assets/img/imgIndex1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; } }
+
 @media only screen and (max-width: 767px) {
   .imgIndex {
     background: url("../assets/img/imgIndexMob.jpg");
@@ -330,14 +339,6 @@ body::-webkit-scrollbar {
     background-position: center center;
     background-size: cover;
     height: 100vh; } }
-
-.imgIndex {
-  background: url("../assets/img/imgIndex1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 100vh; }
 
 /* Tamanios y config gral nav */
 .navbar {
