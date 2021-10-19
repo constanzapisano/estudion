@@ -637,7 +637,7 @@ body::-webkit-scrollbar {
   margin-left: 0; }
 
 /* Tamanios Index */
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 812px) {
   .imgIndex {
     background: url("../assets/img/indexMob.jpg");
     background-repeat: no-repeat;
