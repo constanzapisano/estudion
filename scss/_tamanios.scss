@@ -94,16 +94,6 @@ body::-webkit-scrollbar {
 	margin-top: 20px;
 }
 
-/* Tamanio Img Index */
-.imgIndex {
-	background: url("../assets/img/imgIndex1.jpg"); 
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;	
-	background-size: cover;
-	height: 100vh;
-}
-
 /* Tamanios Nav */
 .navbar {
 	background-color:transparent;
@@ -347,6 +337,28 @@ body::-webkit-scrollbar {
 	.descripcionArq1 {
 		font-size: 22px;		
 		margin: 20px 20px 40px 20px;
+		text-align: center;	
+	}
+}		
+
+/* Tamanio Estudio */
+@media only screen and (min-width: 813px) and (max-width: 1023px){
+	.arqFlex {
+		display: flex;	
+		justify-content: center;		
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}	
+}
+
+/* Tamaño Descripción Estudio 2 */
+@media only screen and (min-width: 813px) and (max-width: 1023px){
+	.descripcionArq2 {
+		font-size: 20px;
+		display: flex;	
+		justify-content: center;		
+		margin: 20px 20px 40px 20px;
+		text-align: center;
 	}
 }
 
@@ -361,27 +373,6 @@ body::-webkit-scrollbar {
 	letter-spacing: 2px;
 	}
 }	
-
-/* Tamanio Estudio */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
-	.arqFlex {
-		display: flex;	
-		justify-content: center;		
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	.descripcionArq2 {
-		display: flex;	
-		justify-content: center;
-		text-align: center;
-	}
-	.descripcionArq1 {	
-		font-size: 22px;
-		line-height: 40px;
-		text-align: center;	
-		margin: 0px 45px 30px 45px;
-	}
-}
 
 /* Tamaño Img Contacto */
 @media only screen and (min-width: 813px) and (max-width: 1023px){
@@ -498,6 +489,15 @@ body::-webkit-scrollbar {
 	}
 }
 
+/* Tamaño Descripción Estudio 2 */
+@media only screen and (max-width: 812px) {
+	.descripcionArq2 {
+		font-size: 18px;
+		margin: 20px 20px 40px 20px;
+		text-align: center;
+	}
+}
+
 /* Tamanio Contacto */
 @media only screen and (max-width: 812px) {
 	.flexContacto {
@@ -527,3 +527,13 @@ body::-webkit-scrollbar {
 		margin-bottom: 25px;
 	}
 }		
+
+/* Tamanio Img Index */
+.imgIndex {
+	background: url("../assets/img/imgIndex1.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;	
+	background-size: cover;
+	height: 100vh;
+}
