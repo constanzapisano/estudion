@@ -1,0 +1,32 @@
+@font-face {
+	font-family: HalfbreD;
+	src: url('../assets/font/HalfbreD.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansProRegular;
+	src: url('../assets/font/SourceSansProRegular.ttf') format('truetype');
+	font-style: regular;
+}
+
+@font-face {
+	font-family: SourceSansProLight;
+	src: url('../assets/font/SourceSansProLight.ttf') format('truetype');
+	font-style: light;
+}
+
+/* Fuentes descargadas */
+.fontHalfbred {
+	font-family: HalfbreD;
+}
+
+.fontSourceSansProRegular {
+	font-family: SourceSansProRegular;
+}
+
+.fontSourceSansProLight {
+	font-family: SourceSansProLight;
+	font-style: light;
+}
+
+
