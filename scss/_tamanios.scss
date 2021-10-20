@@ -403,7 +403,6 @@ body::-webkit-scrollbar {
 
 
 /* Tamanios Index */
-
 	.imgIndex {
 		background: url("../assets/img/Mobile.jpg");
 		background-repeat: no-repeat;
@@ -411,11 +410,11 @@ body::-webkit-scrollbar {
 		background-position: center center;	
 		background-size: cover; 	
 		height: 100vh;
+		width: 100vw;
 	}	
 
 
 /* Tamanio Nav */
-
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 24px;
 	}
