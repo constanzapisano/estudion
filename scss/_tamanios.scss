@@ -94,14 +94,18 @@ body::-webkit-scrollbar {
 	margin-top: 20px;
 }
 
+
+
 /* Tamanio Img Index */
-.imgIndex {
-	background: url("../assets/img/imgIndex1.jpg"); 
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;	
-	background-size: cover;
-	height: 100vh;
+@media only screen and (max-width: 1200px) {
+	.imgIndex {
+		background: url("../assets/img/imgIndex1.jpg"); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center center;	
+		background-size: cover;
+		height: 100vh;
+	}
 }
 
 /* Tamanios Nav */
@@ -269,7 +273,7 @@ body::-webkit-scrollbar {
 	margin-bottom: 15px;
 }	
 
-/* MQs TAMAÑO TABLET ---------------------------------------------------------------------------*/
+/* --------------------------------------- REESPONSIVE TABLET ------------------------------------*/
 /* Tamanio H1 */
 @media only screen and (min-width: 813px) and (max-width: 1023px){
 	.titulosH1 {
@@ -392,7 +396,7 @@ body::-webkit-scrollbar {
 	}
 }
 
-/* MQs TAMAÑO MOBILE ---------------------------------------------------------------------------*/
+/* --------------------------------------- REESPONSIVE MOBILE ------------------------------------*/
 /* Tamanio H1 */
 @media only screen and (max-width: 812px) {
 	.titulosH1 {
