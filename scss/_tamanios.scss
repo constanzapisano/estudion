@@ -97,15 +97,13 @@ body::-webkit-scrollbar {
 
 
 /* Tamanio Img Index */
-@media only screen and (max-width: 1200px) {
-	.imgIndex {
-		background: url("../assets/img/imgIndex1.jpg"); 
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center center;	
-		background-size: cover;
-		height: 100vh;
-	}
+.imgIndex {
+	background: url("../assets/img/imgIndex1.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;	
+	background-size: cover;
+	height: 100vh;
 }
 
 /* Tamanios Nav */
