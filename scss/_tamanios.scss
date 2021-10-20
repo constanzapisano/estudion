@@ -400,10 +400,10 @@ body::-webkit-scrollbar {
 	.titulosH1 {
 		font-size: 30px;
 	}
-}
+
 
 /* Tamanios Index */
-@media only screen and (max-width: 812px) {
+
 	.imgIndex {
 		background: url("../assets/img/Mobile.jpg");
 		background-repeat: no-repeat;
@@ -412,106 +412,94 @@ body::-webkit-scrollbar {
 		background-size: cover; 	
 		height: 100vh;
 	}	
-}
+
 
 /* Tamanio Nav */
-@media only screen and (max-width: 812px) {
+
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 24px;
 	}
-}
+
 
 /* Tamanio Nav */
-@media only screen and (max-width: 812px) {
 	.colorNav .navbar-nav>li>a {
 		font-size: 24px;
 	}
-}
+
 
 /* Tamanio Logo */
-@media only screen and (max-width: 812px) {
 	.logo {
 		width: 55%;
 	}
-}
+
 
 /* Tamanio Frase 1 */
-@media only screen and (max-width: 812px) {
 	.frase1Flex {		
 		font-size: 30px;	
 		margin: 50px 10px 30px 10px;
 	}
-}	
+	
 
 /* Tamanio Frase 2 */
-@media only screen and (max-width: 812px) {
 	.frase2Flex {		
 		font-size: 20px;
 		margin: 55px 10px 30px 10px;
 	}
-}	
+
 
 /* Tamanios H1 */
-@media only screen and (max-width: 812px) {
 	.tituloFlex {
 		font-size:18px;
 	}
-}
+
 
 /* Tamanio Frase S */
-@media only screen and (max-width: 812px) {
 	.fraseSFlex {	
 		font-size: 20px;	
 		margin: 20px 10px 50px 10px;
 	}
-}	
+	
 
 /* Tamanio Descripción SS */
-@media only screen and (max-width: 812px) {
 	.descripcionSs {	
 		font-size: 18px;	
 		margin: 20px 10px 30px 10px;
 	}
-}	
+
 
 /* Tamanio Img Proyectos */
-@media only screen and (max-width: 812px) {
 	.proyectoImg {
 		width: 100%;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
-}	
+
 
 /* Tamanio Descripción */
-@media only screen and (max-width: 812px) {
 	.descripcionArq1 {
 		font-size: 20px;
 		margin: 20px 10px 40px 10px;
 	}
-}
+
 
 /* Tamanio Subtítulo */
-@media only screen and (max-width: 812px) {
 	.arqFlex {
 		display: flex;	
 		justify-content: center;		
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
-}
+
 
 /* Tamaño Descripción Estudio 2 */
-@media only screen and (max-width: 812px) {
 	.descripcionArq2 {
 		font-size: 18px;
 		margin: 20px 20px 40px 20px;
 		text-align: center;
 	}
-}
+
 
 /* Tamanio Contacto */
-@media only screen and (max-width: 812px) {
 	.flexContacto {
 		font-size: 20px;
 		display: flex;	
@@ -520,22 +508,20 @@ body::-webkit-scrollbar {
 		margin-left: 20px;
 		margin-right: 20px;
 	}	
-}
+
 
 /* Tamaño Img Contacto */
-@media only screen and (max-width: 812px){
 	.imgContacto {
 		width: 100%;	
 		height: auto;
 		padding: 0;
 		margin-top: 20px;
 	}
-}
+
 
 /* Tamaño Copyright */
-@media only screen and (max-width: 812px){
 	.copyrightFlex {
 		margin-top: 35px;	
 		margin-bottom: 25px;
 	}
-}		
+}
