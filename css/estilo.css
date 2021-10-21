@@ -277,8 +277,7 @@ body::-webkit-scrollbar {
 /* Tamanio Logo */
 .logo {
   width: 42%;
-  height: auto;
-  margin: 20px 0px 20px 18px; }
+  margin-top: 20px; }
 
 /* Tamanio Íconos Redes */
 .redes {
@@ -451,6 +450,12 @@ body::-webkit-scrollbar {
   /* Tamanio Nav */
   .navbar-light .navbar-nav .nav-link {
     font-size: 28px; }
+  .navbar-light .navbar-toggler .navbar-toggler-icon {
+    margin-top: 20px; }
+  .colorNav .navbar-toggler .navbar-toggler-icon {
+    margin-top: 20px; }
+  .navbar-nav {
+    margin-top: 20px; }
   /* Tamanio Logo */
   .logo {
     width: 60%; }
@@ -528,9 +533,18 @@ body::-webkit-scrollbar {
   /* Tamanio Nav */
   .colorNav .navbar-nav > li > a {
     font-size: 24px; }
+  .navbar-light .navbar-toggler .navbar-toggler-icon {
+    margin-top: 20px;
+    margin-left: 60px; }
+  .colorNav .navbar-toggler .navbar-toggler-icon {
+    margin-top: 20px;
+    margin-left: 60px; }
+  .navbar-nav {
+    margin-top: 20px; }
   /* Tamanio Logo */
   .logo {
-    width: 55%; }
+    width: 55%;
+    margin-left: 10px; }
   /* Tamanio Frase 1 */
   .frase1Flex {
     font-size: 30px;
