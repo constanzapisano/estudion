@@ -86,11 +86,11 @@ body::-webkit-scrollbar-thumb {
 /* Colores Estudio */
 /* Colores título estudio */
 .tituloNos {
-  color: #bcb49c; }
+  color: #626249; }
 
 /* Colores descripción 1 */
 .descripcionArq1 {
-  color: #bcb49c;
+  color: #626249;
   background-color: white; }
 
 /* Color fondo col izquierda */
@@ -120,9 +120,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #626249; }
 
 /* Color texto formulario */
-.flexContacto1 {
-  color: white; }
-
 .flexContacto {
   color: white; }
 
@@ -445,6 +442,7 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 1023px) {
   .titulosH1 {
     font-size: 30px;
+    margin-top: 60px;
     margin-left: 10px;
     margin-right: 10px; }
   /* Tamanio Nav */
@@ -518,7 +516,8 @@ body::-webkit-scrollbar {
 /* Tamanio H1 */
 @media only screen and (max-width: 812px) {
   .titulosH1 {
-    font-size: 30px; }
+    font-size: 30px;
+    margin-top: 60px; }
   /* Tamanios Index */
   .imgIndex {
     background: url("../assets/img/Mobile.jpg");
