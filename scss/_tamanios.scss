@@ -203,7 +203,7 @@ body::-webkit-scrollbar {
 
 /* Tamanios Img Proyecto */
 .proyectoImg {
-	width: 100%;
+	width: 95%;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
@@ -322,7 +322,6 @@ body::-webkit-scrollbar {
 	.proyectoImg {
 		width: 95%;
 		margin-left: 20px;
-		margin-right: 20px;
 		margin-top: 20px;
 		margin-bottom: 40px;
 	}
@@ -369,9 +368,13 @@ body::-webkit-scrollbar {
 }
 
 /* --------------------------------------- REESPONSIVE MOBILE ------------------------------------*/
+/* Tamanio H1 */
+@media only screen and (max-width: 812px) {
+	.titulosH1 {
+		font-size: 30px;
+	}
 
 /* Tamanios Index */
-@media screen and (max-width: 50em) {
 	.imgIndex {
 		background: url("../assets/img/Mobile.jpg");
 		background-repeat: no-repeat;
@@ -380,13 +383,6 @@ body::-webkit-scrollbar {
 		background-size: cover; 	
 		height: 100vh;
 	}	
-}
-
-/* Tamanio H1 */
-@media only screen and (max-width: 812px) {
-	.titulosH1 {
-		font-size: 30px;
-	}
 
 /* Tamanio Nav */
 	.navbar-light .navbar-nav .nav-link {
@@ -434,11 +430,11 @@ body::-webkit-scrollbar {
 
 /* Tamanio Img Proyectos */
 	.proyectoImg {
-		width: 100%;
+		width: 90%;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
-
+	
 /* Tamanio Descripción */
 	.descripcionArq1 {
 		font-size: 20px;

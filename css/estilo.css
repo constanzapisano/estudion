@@ -382,7 +382,7 @@ body::-webkit-scrollbar {
 
 /* Tamanios Img Proyecto */
 .proyectoImg {
-  width: 100%;
+  width: 95%;
   margin-top: 20px;
   margin-bottom: 40px; }
 
@@ -476,7 +476,6 @@ body::-webkit-scrollbar {
   .proyectoImg {
     width: 95%;
     margin-left: 20px;
-    margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 40px; }
   /* Tamanio Descripción */
@@ -511,20 +510,18 @@ body::-webkit-scrollbar {
     margin-top: 80px; } }
 
 /* --------------------------------------- REESPONSIVE MOBILE ------------------------------------*/
-/* Tamanios Index */
-@media screen and (max-width: 50em) {
+/* Tamanio H1 */
+@media only screen and (max-width: 812px) {
+  .titulosH1 {
+    font-size: 30px; }
+  /* Tamanios Index */
   .imgIndex {
     background: url("../assets/img/Mobile.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    height: 100vh; } }
-
-/* Tamanio H1 */
-@media only screen and (max-width: 812px) {
-  .titulosH1 {
-    font-size: 30px; }
+    height: 100vh; }
   /* Tamanio Nav */
   .navbar-light .navbar-nav .nav-link {
     font-size: 24px; }
@@ -555,7 +552,7 @@ body::-webkit-scrollbar {
     margin: 20px 10px 30px 10px; }
   /* Tamanio Img Proyectos */
   .proyectoImg {
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
     margin-bottom: 20px; }
   /* Tamanio Descripción */
