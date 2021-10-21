@@ -443,95 +443,69 @@ body::-webkit-scrollbar {
 
 /* --------------------------------------- REESPONSIVE TABLET ------------------------------------*/
 /* Tamanio H1 */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .titulosH1 {
     font-size: 30px;
     margin-left: 10px;
-    margin-right: 10px; } }
-
-/* Tamanio Nav */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    margin-right: 10px; }
+  /* Tamanio Nav */
   .navbar-light .navbar-nav .nav-link {
-    font-size: 28px; } }
-
-/* Tamanio Logo */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    font-size: 28px; }
+  /* Tamanio Logo */
   .logo {
-    width: 60%; } }
-
-/* Tamanio Frase 1 */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    width: 60%; }
+  /* Tamanio Frase 1 */
   .colorNav .navbar-nav > li > a {
-    font-size: 28px; } }
-
-/* Tamanio Frase 2 */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    font-size: 28px; }
+  /* Tamanio Frase 2 */
   .frase2Flex {
-    margin: 80px 28px 50px 28px; } }
-
-/* Tamanio Frase S */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    margin: 80px 28px 50px 28px; }
+  /* Tamanio Frase S */
   .fraseSFlex {
     font-size: 22px;
-    margin: 20px 30px 50px 30px; } }
-
-/* Tamanio Desripción SS */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    margin: 20px 30px 50px 30px; }
+  /* Tamanio Desripción SS */
   .descripcionSs {
     font-size: 20px;
-    margin: 20px 10px 30px 10px; } }
-
-/* Tamanio Img íconos */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    margin: 20px 10px 30px 10px; }
+  /* Tamanio Img íconos */
   .iconoSize {
     width: 15%;
-    height: 15%; } }
-
-/* Tamanio Img Proyectos */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    height: 15%; }
+  /* Tamanio Img Proyectos */
   .proyectoImg {
     width: 95%;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 40px; } }
-
-/* Tamanio Descripción */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    margin-bottom: 40px; }
+  /* Tamanio Descripción */
   .descripcionArq1 {
     font-size: 22px;
     margin: 20px 20px 40px 20px;
-    text-align: center; } }
-
-/* Tamanio Estudio */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    text-align: center; }
+  /* Tamanio Estudio */
   .arqFlex {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 30px; } }
-
-/* Tamaño Descripción Estudio 2 */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    margin-bottom: 30px; }
+  /* Tamaño Descripción Estudio 2 */
   .descripcionArq2 {
     font-size: 20px;
     display: flex;
     justify-content: center;
     margin: 20px 20px 40px 20px;
-    text-align: center; } }
-
-/* Tamanio Contacto */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    text-align: center; }
+  /* Tamanio Contacto */
   .flexContacto {
     display: flex;
     text-align: center;
     justify-content: center;
     font-size: 22px;
     margin: 15px 20px 35px 20px;
-    letter-spacing: 2px; } }
-
-/* Tamaño Img Contacto */
-@media only screen and (min-width: 813px) and (max-width: 1023px) {
+    letter-spacing: 2px; }
+  /* Tamaño Img Contacto */
   .imgContacto {
     height: 100%;
     margin-top: 80px; } }
