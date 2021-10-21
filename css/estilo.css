@@ -511,18 +511,20 @@ body::-webkit-scrollbar {
     margin-top: 80px; } }
 
 /* --------------------------------------- REESPONSIVE MOBILE ------------------------------------*/
-/* Tamanio H1 */
-@media only screen and (max-width: 812px) {
-  .titulosH1 {
-    font-size: 30px; }
-  /* Tamanios Index */
+/* Tamanios Index */
+@media screen and (max-width: 50em) {
   .imgIndex {
     background: url("../assets/img/Mobile.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    height: 100vh; }
+    height: 100vh; } }
+
+/* Tamanio H1 */
+@media only screen and (max-width: 812px) {
+  .titulosH1 {
+    font-size: 30px; }
   /* Tamanio Nav */
   .navbar-light .navbar-nav .nav-link {
     font-size: 24px; }
