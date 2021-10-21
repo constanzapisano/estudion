@@ -273,68 +273,52 @@ body::-webkit-scrollbar {
 
 /* --------------------------------------- REESPONSIVE TABLET ------------------------------------*/
 /* Tamanio H1 */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
+@media only screen and (max-width: 1023px) {
 	.titulosH1 {
 		font-size: 30px;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-}
 
 /* Tamanio Nav */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 28px;
 	}
-}
 
 /* Tamanio Logo */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.logo {
 		width: 60%;
 	}
-}
 
 /* Tamanio Frase 1 */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.colorNav .navbar-nav>li>a {
 		font-size: 28px;
 	}
-}
 
 /* Tamanio Frase 2 */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.frase2Flex {		
 		margin: 80px 28px 50px 28px;
 	}
-}	
-
+	
 /* Tamanio Frase S */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.fraseSFlex {	
 		font-size: 22px;	
 		margin: 20px 30px 50px 30px;
 	}
-}	
 
 /* Tamanio Desripción SS */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.descripcionSs {	
 		font-size: 20px;	
 		margin: 20px 10px 30px 10px;
 	}
-}	
 
 /* Tamanio Img íconos */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.iconoSize {	
 		width: 15%;
 		height: 15%;
 	}
-}	
 
 /* Tamanio Img Proyectos */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.proyectoImg {
 		width: 95%;
 		margin-left: 20px;
@@ -342,29 +326,23 @@ body::-webkit-scrollbar {
 		margin-top: 20px;
 		margin-bottom: 40px;
 	}
-}	
 
 /* Tamanio Descripción */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.descripcionArq1 {
 		font-size: 22px;		
 		margin: 20px 20px 40px 20px;
 		text-align: center;	
 	}
-}		
 
 /* Tamanio Estudio */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.arqFlex {
 		display: flex;	
 		justify-content: center;		
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}	
-}
 
 /* Tamaño Descripción Estudio 2 */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.descripcionArq2 {
 		font-size: 20px;
 		display: flex;	
@@ -372,10 +350,8 @@ body::-webkit-scrollbar {
 		margin: 20px 20px 40px 20px;
 		text-align: center;
 	}
-}
 
 /* Tamanio Contacto */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.flexContacto {
 	display: flex;
 	text-align: center;
@@ -384,10 +360,8 @@ body::-webkit-scrollbar {
 	margin: 15px 20px 35px 20px;
 	letter-spacing: 2px;
 	}
-}	
 
 /* Tamaño Img Contacto */
-@media only screen and (min-width: 813px) and (max-width: 1023px){
 	.imgContacto {	
 		height: 100%;
 		margin-top: 80px;		
@@ -401,36 +375,30 @@ body::-webkit-scrollbar {
 		font-size: 30px;
 	}
 
-
 /* Tamanios Index */
 	.imgIndex {
-		background: url("../assets/img/imgIndex1.jpg");
+		background: url("../assets/img/Mobile.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center center;	
 		background-size: cover; 	
-		height: 50%;
-		width: 50%;
+		height: 100vh;
 	}	
-
 
 /* Tamanio Nav */
 	.navbar-light .navbar-nav .nav-link {
 		font-size: 24px;
 	}
 
-
 /* Tamanio Nav */
 	.colorNav .navbar-nav>li>a {
 		font-size: 24px;
 	}
 
-
 /* Tamanio Logo */
 	.logo {
 		width: 55%;
 	}
-
 
 /* Tamanio Frase 1 */
 	.frase1Flex {		
@@ -438,19 +406,16 @@ body::-webkit-scrollbar {
 		margin: 50px 10px 30px 10px;
 	}
 	
-
 /* Tamanio Frase 2 */
 	.frase2Flex {		
 		font-size: 20px;
 		margin: 55px 10px 30px 10px;
 	}
 
-
 /* Tamanios H1 */
 	.tituloFlex {
 		font-size:18px;
 	}
-
 
 /* Tamanio Frase S */
 	.fraseSFlex {	
@@ -458,13 +423,11 @@ body::-webkit-scrollbar {
 		margin: 20px 10px 50px 10px;
 	}
 	
-
 /* Tamanio Descripción SS */
 	.descripcionSs {	
 		font-size: 18px;	
 		margin: 20px 10px 30px 10px;
 	}
-
 
 /* Tamanio Img Proyectos */
 	.proyectoImg {
@@ -473,13 +436,11 @@ body::-webkit-scrollbar {
 		margin-bottom: 20px;
 	}
 
-
 /* Tamanio Descripción */
 	.descripcionArq1 {
 		font-size: 20px;
 		margin: 20px 10px 40px 10px;
 	}
-
 
 /* Tamanio Subtítulo */
 	.arqFlex {
@@ -489,14 +450,12 @@ body::-webkit-scrollbar {
 		margin-bottom: 30px;
 	}
 
-
 /* Tamaño Descripción Estudio 2 */
 	.descripcionArq2 {
 		font-size: 18px;
 		margin: 20px 20px 40px 20px;
 		text-align: center;
 	}
-
 
 /* Tamanio Contacto */
 	.flexContacto {
@@ -508,7 +467,6 @@ body::-webkit-scrollbar {
 		margin-right: 20px;
 	}	
 
-
 /* Tamaño Img Contacto */
 	.imgContacto {
 		width: 100%;	
@@ -516,7 +474,6 @@ body::-webkit-scrollbar {
 		padding: 0;
 		margin-top: 20px;
 	}
-
 
 /* Tamaño Copyright */
 	.copyrightFlex {
