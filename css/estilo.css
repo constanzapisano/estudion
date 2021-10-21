@@ -520,12 +520,8 @@ body::-webkit-scrollbar {
     margin-top: 60px; }
   /* Tamanios Index */
   .imgIndex {
-    background: url("../assets/img/Mobile.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh; }
+    background-image: url("../assets/img/Mobile.jpg");
+    background-attachment: scroll; }
   /* Tamanio Nav */
   .navbar-light .navbar-nav .nav-link {
     font-size: 24px; }
@@ -533,11 +529,9 @@ body::-webkit-scrollbar {
   .colorNav .navbar-nav > li > a {
     font-size: 24px; }
   .navbar-light .navbar-toggler .navbar-toggler-icon {
-    margin-top: 20px;
-    margin-left: 60px; }
+    margin-top: 20px; }
   .colorNav .navbar-toggler .navbar-toggler-icon {
-    margin-top: 20px;
-    margin-left: 60px; }
+    margin-top: 20px; }
   .navbar-nav {
     margin-top: 20px; }
   /* Tamanio Logo */
