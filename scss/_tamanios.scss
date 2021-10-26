@@ -207,7 +207,7 @@ body::-webkit-scrollbar {
 }
 
 /* Flex Descripción Estudio 1 */
-.descripcionArq1 {	
+.descripcionArq {	
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -338,7 +338,7 @@ body::-webkit-scrollbar {
 	}
 
 /* Tamanio Descripción */
-	.descripcionArq1 {
+	.descripcionArq {
 		font-size: 22px;		
 		margin: 20px 20px 40px 20px;
 		text-align: center;	
@@ -457,7 +457,7 @@ body::-webkit-scrollbar {
 	}
 	
 /* Tamanio Descripción */
-	.descripcionArq1 {
+	.descripcionArq {
 		font-size: 20px;
 		margin: 20px 10px 40px 10px;
 	}

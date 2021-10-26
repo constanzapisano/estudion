@@ -85,12 +85,12 @@ body::-webkit-scrollbar-thumb {
 
 /* Colores Estudio */
 /* Colores título estudio */
-.tituloNos {
-  color: #626249; }
+.colorEs {
+  color: #3f3f2d; }
 
 /* Colores descripción 1 */
-.descripcionArq1 {
-  color: #626249;
+.descripcionArq {
+  color: #3f3f2d;
   background-color: white; }
 
 /* Color fondo col izquierda */
@@ -383,7 +383,7 @@ body::-webkit-scrollbar {
   margin-bottom: 40px; }
 
 /* Flex Descripción Estudio 1 */
-.descripcionArq1 {
+.descripcionArq {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -482,7 +482,7 @@ body::-webkit-scrollbar {
     margin-top: 20px;
     margin-bottom: 40px; }
   /* Tamanio Descripción */
-  .descripcionArq1 {
+  .descripcionArq {
     font-size: 22px;
     margin: 20px 20px 40px 20px;
     text-align: center; }
@@ -563,7 +563,7 @@ body::-webkit-scrollbar {
     margin-top: 20px;
     margin-bottom: 20px; }
   /* Tamanio Descripción */
-  .descripcionArq1 {
+  .descripcionArq {
     font-size: 20px;
     margin: 20px 10px 40px 10px; }
   /* Tamanio Subtítulo */
