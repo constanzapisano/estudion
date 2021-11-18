@@ -1,40 +1,193 @@
-h2{
-	color: black;
+/* Variables colores */
+
+$primary-color: white;
+$secondary-color: #bcb49c;
+$background-color: #3f3f2d;
+$bg-color: #626249;
+
+/* Colores Generales */
+
+h1 {
+	color: $primary-color;
 }
+
+h2{
+	color: $primary-color;
+}
+
+h3 {
+	color: $primary-color;
+}
+
 
 /* Botón wapp colores */
 
 .btn-wsp {
-	background: black;
-	color: white;	
+	background: rgb(155, 155, 155);
+	color: $primary-color;	
 	box-shadow: rgba(0,0,0,0.3);
 }
 
 .btn-wsp:hover {
-	color: black;
-	background-color: white;
+	color: rgb(155, 155, 155);
+	background-color: $primary-color;
+}
+
+#irArriba {	
+	color: $primary-color;	
+}
+
+/* Botón ir arriba */
+#irArriba:hover {
+	color: rgb(155, 155, 155);
 }
 
 /* Scroll bar */
 
 body::-webkit-scrollbar-thumb {
-	background-color: black;
+	background-color: $background-color;
+}
+
+/* Color fondo generales */
+.fondoGral {
+	background-color: $secondary-color;
+}
+
+/* Colores nav */
+.navbar-light .navbar-nav .nav-link {
+	color: $primary-color;
+}
+
+.navbar .nav-item>li>a {
+	background-color: transparent;
+	color: $primary-color;
+}
+
+.navbar-light .navbar-toggler {
+	color:$primary-color;
+	border-color: transparent;
+}
+
+.navbar-light .navbar-toggler .navbar-toggler-icon {	
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+	color: $primary-color;
+	border-bottom: 1px solid #fff;
+}
+
+.colorNav .navbar-nav .nav-link {
+	color: $background-color;
+}
+
+.colorNav .navbar-nav .active .nav-link {
+	color: $background-color;
+	border-bottom: 1px solid $background-color;
+}
+
+.navbar .colorNav .nav-item>li>a {
+	background-color: transparent;
+	color: $background-color;
+}
+
+.colorNav .navbar-toggler .navbar-toggler-icon {	
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(63, 63, 45, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Color frases y algunos títulos */
+.fraseColor {
+	color: $primary-color;
 }
 
 /* Colores footer */
 .bgIndexFooter{
-	background-color: rgb(246, 246,241);
+	background-color:$background-color;
 }
 
 /* Colores íconos redes */
 .redes i {
-	color: black;
+	color: $primary-color;
 }
 
 .redes i:hover {
-	color: rgba(201, 201, 201, 0.3);
+	color: $secondary-color;
 }
 
-.copyrightFlex {
-	color: black;
+/* Colores Estudio */
+
+/* Colores título estudio */
+.colorEs {
+	color: #3f3f2d;
+}
+
+/* Colores descripción 1 */
+.descripcionArq {
+	color: $background-color;
+	background-color: $primary-color;
+}
+
+/* Color fondo col izquierda */
+.arqFondo {
+	color: $primary-color;
+	background-color: #dfddd2;
+}
+
+/* Colores descripción 2 */
+.descripcionArq2 {
+	color: $secondary-color;
+	background-color: $primary-color;
+}
+
+/* Colores fondo col derecha */
+.textoFondo {
+	background-color: #f7f6f2;
+}
+
+/* Colores Proyecto */
+.fondoBlanco {
+	background-color: $primary-color;
+}
+
+.proyectoColor {
+	color: $background-color;
+}
+
+/* Colores Contacto */
+
+/* Color fondo */
+.fondoContacto {
+	background-color: $bg-color;
+}
+
+/* Color texto formulario */
+.flexContacto {
+	color: $primary-color;
+}
+
+.form input { 
+	color: white;
+}
+
+.form .lbl-nombre {
+	border-bottom: $primary-color;
+}
+
+.text-nomb {
+	color: $primary-color;
+}
+
+.form input:focus + .lbl-nombre .text-nomb, .form input:valid + .lbl-nombre .text-nomb {
+	color: $primary-color;
+}
+
+/* CSS botón */
+.estiloBoton {
+	color: $primary-color;
+	background-color: rgba(188, 180, 156, 1.0);
+}
+
+.estiloBoton:hover {
+	color: rgba(188, 180, 156, 1.0);
+	background-color: $primary-color;
 }
